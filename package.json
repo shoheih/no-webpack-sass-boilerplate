@@ -1,0 +1,20 @@
+{
+  "name": "190412_cs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "node-sass sass/style.scss --source-map true --importer node_modules/node-sass-globbing/index.js -o css_bk",
+    "watch:sass": "onchange \"sass/**\" -- npm run compile:sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0",
+    "node-sass-globbing": "0.0.23",
+    "onchange": "^5.2.0"
+  }
+}
