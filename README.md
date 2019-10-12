@@ -1,2 +1,4 @@
 # no-webpack-sass-boilerplate
-@shohei.H
+@Shohei.H
+
+You can create sass environment without webpack!
