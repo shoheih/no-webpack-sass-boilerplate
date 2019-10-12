@@ -1,8 +1,7 @@
 {
-  "name": "190412_cs",
+  "name": "no-webpack-sass-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "serve": "live-server",
     "compile:sass": "node-sass sass/style.scss --source-map true --importer node_modules/node-sass-globbing/index.js -o css_bk",
